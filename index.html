@@ -25,6 +25,16 @@
   
 
   
+<script>
+var _hmt = _hmt || [];
+(function() {
+	var hm = document.createElement("script");
+	hm.src = "https://hm.baidu.com/hm.js?e4afb3a9df12be21b3e6a0a6a08dc64f";
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 
 </head>
 
@@ -72,75 +82,6 @@
     
     
     
-    
-    <article id="post-V模型" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2020/03/22/V%E6%A8%A1%E5%9E%8B/"
-    >软件测试流程-V模型</a
-  >
-</h2>
-  
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2020/03/22/V%E6%A8%A1%E5%9E%8B/" class="article-date">
-  <time datetime="2020-03-22T12:50:00.000Z" itemprop="datePublished">2020-03-22</time>
-</a>
-      
-      
-      
-      
-    </div>
-    
-
-    
-
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-
-
-      
-
-      
-      <pre><code>V模型大体可以划分为以下几个不同的阶段步骤：需求分析、概要设计、详细设计、软件编码、
-                                           单元测试、集成测试、系统测试、验收测试。</code></pre>
-      
-      <!-- reward -->
-      
-    </div>
-    
-    
-      <!-- copyright -->
-      
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/V%E6%A8%A1%E5%9E%8B/" rel="tag">V模型</a><span class="article-tag-list-count">1</span></li></ul>
-
-
-    </footer>
-
-  </div>
-
-  
-
-  
-  
-  
-
-  
-
-</article>
     
     <article id="post-python处理16进制" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
@@ -195,6 +136,76 @@ codecs.open(r&apos;C:\ProgramData\Sangfor\EDR\log\sfavui.log&apos;, &apos;r&apos
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/" rel="tag">python</a><span class="article-tag-list-count">1</span></li></ul>
+
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+
+</article>
+    
+    <article id="post-V模型" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/03/22/V%E6%A8%A1%E5%9E%8B/"
+    >软件测试流程-V模型</a
+  >
+</h2>
+  
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/03/22/V%E6%A8%A1%E5%9E%8B/" class="article-date">
+  <time datetime="2020-03-22T01:08:15.050Z" itemprop="datePublished">2020-03-22</time>
+</a>
+      
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+
+
+      
+
+      
+      <h2 id="一、阶段步骤"><a href="#一、阶段步骤" class="headerlink" title="一、阶段步骤"></a>一、阶段步骤</h2><pre><code>V模型大体可以划分为以下几个不同的阶段步骤：需求分析、概要设计、详细设计、软件编码、单元测试、集成测试、系统测试、验收测试。</code></pre><h3 id="1-需求分析"><a href="#1-需求分析" class="headerlink" title="1.需求分析"></a>1.需求分析</h3><pre><code>即首先要明确客户需要的是什么，需要软件作成什么样子，需要有那几项功能，这一点上比较关键的是分析师和客户沟通时的理解能力与交互性。要求分析师能准确的把客户所需要达到的功能，实现方式，等表述出来，给出分析结果，写出需求规格说明书。</code></pre><h3 id="2-概要设计"><a href="#2-概要设计" class="headerlink" title="2.概要设计"></a>2.概要设计</h3><pre><code>主要是架构的实现，指搭建架构、表述各模块功能、模块接口连接和数据传递的实现等项事务。</code></pre><h3 id="3-详细设计"><a href="#3-详细设计" class="headerlink" title="3.详细设计"></a>3.详细设计</h3><pre><code>对概要设计中表述的各模块进行深入分析，对各模块组合进行分析等，这一阶段要求达到伪代码级别，已经把程序的具体实现的功能，现象等描述出来。其中需要包含数据库设计说明。</code></pre><h3 id="4-软件编码"><a href="#4-软件编码" class="headerlink" title="4.软件编码"></a>4.软件编码</h3><pre><code>按照详细设计好的模块功能表，编程人员编写出实际的代码。</code></pre><h3 id="5-单元测试"><a href="#5-单元测试" class="headerlink" title="5.单元测试"></a>5.单元测试</h3><pre><code>按照设定好的最小测试单元进行按单元测试，主要是测试程序代码，为的是确保各单元模块被正确的编译，单元的具体划分按不同的单位与不同的软件有不同，比如有具体到模块的测试，也有具体到类，函数的测试等。</code></pre><h3 id="6-集成测试"><a href="#6-集成测试" class="headerlink" title="6.集成测试"></a>6.集成测试</h3><pre><code>经过了单元测试后，将各单元组合成完整的体系，主要测试各模块间组合后的功能实现情况，以及模块接口连接的成功与否，数据传递的正确性等，其主要目的是检查软件单位之间的接口是否正确。根据集成测试计划，一边将模块或其他软件单位组合成系统，一边运行该系统，以分析所组成的系统是否正确，各组成部分是否合拍。</code></pre><h3 id="7-系统测试"><a href="#7-系统测试" class="headerlink" title="7.系统测试"></a>7.系统测试</h3><pre><code>经过了单元测试和集成测试以后，我们要把软件系统搭建起来，按照软件规格说明书中所要求，测试软件其性能功能等是否和用户需求相符合，在系统中运行是否存在漏洞，等。</code></pre><h3 id="8-验收测试"><a href="#8-验收测试" class="headerlink" title="8.验收测试"></a>8.验收测试</h3><pre><code>主要就是用户在拿到软件的时候，在使用现场，会根据前边所提到的需求，以及规格说明书来做相应测试，以确定软件达到预期的效果。</code></pre><h2 id="二、对应关系"><a href="#二、对应关系" class="headerlink" title="二、对应关系"></a>二、对应关系</h2><pre><code>一般来讲：单元测试所对应的是详细设计环节，也就是说，单元测试的测试用例是和详细设计一起出现的，在研发人员做详细设计的时候，相应的测试人员也就把测试用例写了出来；集成测试对应概要设计，在做模块功能分析及模块接口，数据传输方法的时候，就把集成测试用例根据概要设计中模块功能及接口等实现方法编写出来，以备以后作集成测试的时候可以直接引用；而系统测试，就是根据需求分析而来，在系统分析人员作系统分析，编写需求说明书的时候测试人员就根据客户需求说明书，把最后能实现系统功能的各种测试用例写出来，为做最后系统测试作准备。
+验收测试与用户需求对应，是非设计流程。</code></pre><h2 id="三、缺陷及解决"><a href="#三、缺陷及解决" class="headerlink" title="三、缺陷及解决"></a>三、缺陷及解决</h2><pre><code>V模型仅仅把测试过程作为在需求分析、系统设计及编码之后的一个阶段，忽视了测试对需求分析,系统设计的验证，需求的满足情况一直到后期的验收测试才被验证。
+解决的思路是，当一个软件开发的时候，研发人员和测试人员需要同时工作，测试在软件做需求分析的同时就会有测试用例的跟踪，这样，可以尽快找出程序错误和需求偏离，从而更高效的提高程序质量，最大可能的减少成本，同时满足用户的实际软件需求。</code></pre><h2 id="四、适用范围"><a href="#四、适用范围" class="headerlink" title="四、适用范围"></a>四、适用范围</h2><pre><code>V模式是一种传统软件开发模型，一般适用于一些传统信息系统应用的开发，而一些高性能高风险的系统、互联网软件，或一个系统难以被具体模块化的时候，就比较难做成V模式所需的各种构件，需要更强调迭代的开发模型或者敏捷开发模型。</code></pre>
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/V%E6%A8%A1%E5%9E%8B/" rel="tag">V模型</a><span class="article-tag-list-count">1</span></li></ul>
 
 
     </footer>
